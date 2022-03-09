@@ -1,0 +1,26 @@
+{
+    "name": "thojou/php-binary",
+    "description": "A PHP library to support reading and writing of binary data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Joußen",
+            "email": "tjoussen91@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thojou\\Binary\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thojou\\Binary\\Tests\\": "tests/"
+        }
+    }
+}
